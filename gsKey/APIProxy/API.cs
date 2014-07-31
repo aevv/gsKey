@@ -28,7 +28,8 @@ namespace gsKey.APIProxy
 
         public bool togglePlay()
         {
-            return togglePlay();
+            Status status = null;
+            return togglePlay(status);
         }
         public bool togglePlay(ref Status status)
         {
